@@ -1,0 +1,35 @@
+{
+  "name": "@jaeseokk/chunk-scheduler",
+  "version": "0.0.1",
+  "description": "Slice your heavy task in light chunk and run them asynchronously.",
+  "keywords": [
+    "chunk",
+    "task",
+    "async",
+    "generator",
+    "scheduling"
+  ],
+  "main": "./dist/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaeseokk/chunk-scheduler"
+  },
+  "author": "Jaeseok Kang <kang89kr@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.5",
+    "npm": ">=6.0",
+    "yarn": "^1.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.18",
+    "jest": "24.9.0",
+    "ts-jest": "24.0.2",
+    "typescript": "3.6.2"
+  }
+}
